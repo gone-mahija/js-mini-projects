@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#19172e;
+    font-family: 'sans';
+    font-size: 20px;
+
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('font/sans.ttf');
+}
+
+h1 {
+   font-size: 5.5rem;
+   color:#FEFFE2;
+   text-align: center;
+   font-family: 'Arovo', cursive;
+}
+
+.keys {
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   flex: 1;
+
+}
+
+.key {
+    border: .4rem solid white;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    width: 78pt;
+    background-color:#212121 ;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    transition: all .07s ease;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #bb86fc;
+    box-shadow: 0 0 1rem #bb86fc;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.sound {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #bb86fc;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
